@@ -166,6 +166,7 @@
                             total_player_active++;
                         }
                         if (parseInt($(element).attr('data-point')) > total_point) {
+                            total_point = parseInt($(element).attr('data-point'));
                             player_point_terbanyak = $(element).attr('data-player_id');
                         }
                     });
