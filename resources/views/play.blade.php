@@ -113,6 +113,7 @@
                 $('#roll-the-dice').click(function (e) {
                     e.preventDefault();
                     $.blockUI();
+                    $.unblockUI();
                     if (first_time_click == 0) {
                         var is_final = calculate_total_dice();
                         if (is_final) {
@@ -147,7 +148,6 @@
 
                     time2 = 1000;
                     time = 1000;
-                    $.unblockUI();
                 });
 
                 function calculate_total_dice() {
