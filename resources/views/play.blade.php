@@ -93,6 +93,33 @@
                         <div class="col-md-12 bg-light overflow-auto log-point" style="height: 500px; border: 1px solid #c4c4c4;">
 
                         </div>
+                        <div class="col-md-12 text-center pt-3">
+                            <h2>Rules</h2>
+                        </div>
+                        <div class="col-md-12 bg-light overflow-auto log-point" style="height: auto; border: 1px solid #c4c4c4;">
+                            <ol>
+                                <li>Pada awal permainan, setiap pemain mendapatkan dadu sejumlah M unit.</li>
+                                <li>Semua pemain akan melemparkan dadu mereka masing-masing secara bersamaan.</li>
+                                <li>
+                                    Setiap pemain akan mengecek hasil dadu lemparan mereka dan melakukan evaluasi
+                                    seperti berikut:
+                                    <ul>
+                                        <li>Dadu angka 6 akan dikeluarkan dari permainan dan ditambahkan sebagai poin
+                                            bagi pemain tersebut.</li>
+                                        <li>Dadu angka 1 akan diberikan kepada pemain yang duduk disampingnya. Contoh, pemain pertama akan memberikan dadu angka 1 nya ke pemain kedua.</li>
+                                        <li>Dadu angka 2,3,4 dan 5 akan tetap dimainkan oleh pemain.</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    Setelah evaluasi, pemain yang masih memiliki dadu akan mengulangi step yang ke-2
+                                    sampai tinggal 1 pemain yang tersisa.
+                                    <ul>
+                                        <li>Untuk pemain yang tidak memiliki dadu lagi dianggap telah selesai bermain.</li>
+                                    </ul>
+                                </li>
+                                <li>Pemain yang memiliki poin terbanyak lah yang menang.</li>
+                            </ol>
+                        </div>
                     </div>
                 </div>
                 <a href="#" class="float" id="roll-the-dice">
