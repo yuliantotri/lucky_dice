@@ -25,7 +25,7 @@ Rules :
         until only 1 player remains.
         a. Players who have no more dice are considered to have finished playing.
         5. The player who has the most points wins.
-    ID :
+        ID :
         1. Pada awal permainan, setiap pemain mendapatkan dadu sejumlah M unit.
         2. Semua pemain akan melemparkan dadu mereka masing-masing secara bersamaan
         3. Setiap pemain akan mengecek hasil dadu lemparan mereka dan melakukan evaluasi
